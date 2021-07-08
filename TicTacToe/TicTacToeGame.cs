@@ -13,10 +13,10 @@ namespace TicTacToe
             person = Convert.ToChar(Console.ReadLine());
             return person;
         }
-        public static char GetComputerInput(char human)
+        public static char GetComputerInput(char person)
         {
             char computer;
-            if (human == 'x' || human == 'X')
+            if (person == 'x' || person == 'X')
                 computer = 'O';
             else
             {
